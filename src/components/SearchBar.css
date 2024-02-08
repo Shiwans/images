@@ -1,0 +1,40 @@
+.search-bar{
+    border: 2px solid lightgray;
+    border-radius: 60px;
+    padding: 20px;
+}
+
+
+.search-bar form{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin-left: 100px;
+}
+input{
+    width: 60%;
+    height: 20px;
+}
+
+.buttonIm{
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px rgb(57, 57, 249) ;
+    background-color: rgb(57, 57, 249);
+    color: white;
+    /* padding: 10px; */
+    border-radius: 20px;
+    height: 30px;
+    width: 10%;
+}
+.buttonIm:hover{
+    background-color: rgb(26, 26, 216);
+}
+
+.buttonIm:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

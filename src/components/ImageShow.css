@@ -1,0 +1,36 @@
+/* //inside */
+.card{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    right: 2%;
+    bottom: 8%;
+}
+
+.dislike{
+    position: absolute;
+    left: 2%;
+    bottom: 8%;
+}
+
+/*create heart and dislike button outside the image just like ig*/
+#dislikeBtn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px rgb(57, 57, 249) ;
+    background-color: rgb(110, 110, 255);
+    color: whitesmoke;
+    /* padding: 10px; */
+    border-radius: 20px;
+}
+
+#dislikeBtn:hover{
+    background-color: rgb(57, 57, 249);
+}
+
+#dislikeBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+  }
